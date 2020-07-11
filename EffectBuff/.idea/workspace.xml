@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d63f97d9-51d0-498f-b1f0-9ca7c1f97f35" name="Default Changelist" comment="" />
+    <list default="true" id="d63f97d9-51d0-498f-b1f0-9ca7c1f97f35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +19,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Fzzfegg &lt;2646505514@qq.com&gt;" />
         <option value="Fzzfegg" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -50,7 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="EffectBuff build" type="MavenRunConfiguration" factoryName="Maven">
@@ -105,7 +113,7 @@
       <workItem from="1587623948235" duration="667000" />
       <workItem from="1593953759024" duration="233000" />
       <workItem from="1594310777648" duration="1057000" />
-      <workItem from="1594484345855" duration="2285000" />
+      <workItem from="1594484345855" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1594487588273</created>
@@ -114,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594487588273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交">
+      <created>1594487917169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594487917169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,14 +140,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="212" y="42" key="#Deployment" timestamp="1594488418683">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="212" y="42" key="#Deployment/0.0.1366.768@0.0.1366.768" timestamp="1594488418683" />
     <state x="275" y="42" key="#Notifications" timestamp="1594487399787">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="42" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1594487399787" />
-    <state x="218" y="0" key="CommitChangelistDialog2" timestamp="1594487587245">
+    <state x="411" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594488382283">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="218" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594487587245" />
+    <state x="411" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1594488382283" />
+    <state x="218" y="0" key="CommitChangelistDialog2" timestamp="1594488421520">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="218" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1594488421520" />
+    <state x="66" y="58" key="DiffContextDialog" timestamp="1594488364152">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="66" y="58" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1594488364152" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1587626694557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -173,18 +200,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586468784382" />
-    <state x="184" y="25" key="SettingsEditor" timestamp="1594487512024">
+    <state x="423" y="9" key="RollbackChangesDialog" timestamp="1594487983120">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594487512024" />
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1594487460708">
+    <state x="423" y="9" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1594487983120" />
+    <state x="184" y="25" key="SettingsEditor" timestamp="1594488065959">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594487460708" />
+    <state x="184" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594488065959" />
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2" timestamp="1594488378286">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="112" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594488378286" />
     <state x="413" y="128" key="extract.method.dialog" timestamp="1586463426876">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="128" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1586463426876" />
+    <state x="504" y="226" key="git4idea.rebase.GitRebaseDialog" timestamp="1594488326396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="504" y="226" key="git4idea.rebase.GitRebaseDialog/0.0.1366.768@0.0.1366.768" timestamp="1594488326396" />
     <state x="57" y="33" key="new project wizard" timestamp="1587624018772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
