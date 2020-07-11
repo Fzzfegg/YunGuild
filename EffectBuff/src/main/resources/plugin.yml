@@ -1,0 +1,10 @@
+name: EffectBuff
+version: ${project.version}
+main: fzzfegg.effectbuff.EffectBuff
+api-version: 1.13
+prefix: EffectBuff
+authors: [Fzzfegg]
+description: EffectBuff
+website: Fzzfegg.com
+commands:
+  eff:
