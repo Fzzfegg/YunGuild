@@ -1,0 +1,106 @@
+Level:
+  title: "&a公会等级"
+  oldname: "&a当前等级: %level%级"
+  newname: "&a升级至: %level%级"
+  1:
+    type: coal
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.05%"
+      - "&7回收价格: +0.05%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x1"
+  2:
+    type: iron_ingot
+    player_count: 3
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.1%"
+      - "&7回收价格: +0.1%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x1 金币2000 "
+      - "&7------升级需求-------"
+      - "&7金币： 200000"
+      - "&7物品： &a死剑的信物"
+  3:
+    type: gold_ingot
+    player_count: 6
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.15%"
+      - "&7回收价格: +0.15%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x2 金币3000 "
+      - "&7------升级需求-------"
+      - "&7金币： 400000"
+      - "&7物品： &a暗魔师的信物"
+  4:
+    type: diamond
+    player_count: 9
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.15%"
+      - "&7回收价格: +0.15%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x3 金币4000 "
+      - "&7------升级需求-------"
+      - "&7金币： 1500000"
+      - "&7物品： &a冰雪女王的信物"
+  5:
+    type: emerald
+    player_count: 12
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.2%"
+      - "&7回收价格: +0.2%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x4 金币5000 "
+      - "&7------升级需求-------"
+      - "&7金币： 4000000"
+      - "&7物品： &a余烬的信物"
+  6:
+    type: ghast_tear
+    player_count: 15
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.25%"
+      - "&7回收价格: +0.25%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x5 金币7000 "
+      - "&7------升级需求-------"
+      - "&7金币： 7000000"
+      - "&7物品： &a特蕾西亚的信物"
+  7:
+    type: nether_star
+    player_count: 18
+    lore:
+      - "&7公会人数: %player_count% / %max_count%"
+      - "&7仓库大小: %chest_count%"
+      - "&7%elite_name%: %elite_count% / %max_elite%"
+      - "&7%grand_name%: %grand_count% / %max_grand%"
+      - "&7回收限量: +0.35%"
+      - "&7回收价格: +0.35%"
+      - "&7签到奖励: "
+      - "&7 -  低阶刮刮卡x6 金币9000 "
+      - "&7------升级需求-------"
+      - "&7金币： 15000000"
+      - "&7物品： &a魔王称号卡"
+

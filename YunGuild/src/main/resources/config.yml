@@ -1,0 +1,67 @@
+Guild:
+  #工会名字限制长度
+  minNameLength: 2
+  maxNameLength: 4
+  #工会默认最大人数
+  defaultPlayerCount: 3
+  #退出工会后，要过20分钟才可以继续加入
+  levalCD: 20
+  #召集令需要的金币
+  issueZhaojiling: 1000
+  #TP等待
+  issuzTime: 3
+  #工会聊天
+  chat:
+    #公平输入 gh 聊天内容  即可
+    prefix: "gh"
+    msgformat: "&3[公会频道]%player%: %msg%"
+    hover:
+      - "&7等级: %player_level%"
+      - "&7血量: %player_health%"
+      - "&7金币: %player_money%"
+      - "&7身份: %identity%"
+      - "&7称号: %player_prefix%"
+      - "&7权限组: %player_group%"
+      - "&7当前所在世界: %player_world%"
+      - "&a点击TP"
+  #不同等级的称号
+  identity:
+    default: "&2<%guild_name%成员>"
+    elite: "&b<%guild_name%精英>"
+    grand: "&a<%guild_name%元老>"
+    admin: "&c<%guild_name%会长>"
+  #不同等级的身份名额
+  identityLevel:
+    1:
+      elite: 1
+      grand: 1
+    2:
+      elite: 1
+      grand: 1
+    3:
+      elite: 1
+      grand: 1
+    4:
+      elite: 1
+      grand: 1
+    5:
+      elite: 1
+      grand: 1
+    6:
+      elite: 1
+      grand: 1
+
+#禁止使用的工会名字 字符
+noGuildName:
+  - "管理"
+  - "腐竹"
+  - "牛逼"
+  - "第"
+  - "厉害"
+  - "特"
+  - "最"
+  - "&"
+
+#禁止使用召集令-设置工会家的世界
+noTpWorld:
+  - "cs"

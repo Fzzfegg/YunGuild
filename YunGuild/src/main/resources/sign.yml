@@ -1,0 +1,71 @@
+Sign:
+  #20个小时 算作一次CD
+  time: 20
+  #点击签到后，在线多久才可以领取奖励
+  #分钟为单位
+  getTime: 60
+  Level:
+    1:
+      - "di customitems give %player% 低阶刮刮卡 1"
+    2:
+      - "di customitems give %player% 低阶刮刮卡 1"
+      - "money give %player% 2000"
+    3:
+      - "di customitems give %player% 低阶刮刮卡 2"
+      - "money give %player% 3000"
+    4:
+      - "di customitems give %player% 低阶刮刮卡 3"
+      - "money give %player% 4000"
+    5:
+      - "di customitems give %player% 低阶刮刮卡 4"
+      - "money give %player% 5000"
+    6:
+      - "di customitems give %player% 低阶刮刮卡 5"
+      - "money give %player% 7000"
+    7:
+      - "di customitems give %player% 低阶刮刮卡 6"
+      - "money give %player% 9000"
+    8:
+      - "ecraft give 抽奖1 %player%"
+      - "money give %player% 12000"
+  #连续签到
+  Count:
+    #5级
+    5:
+      #最高10次
+      max: 10
+      #10次给什么奖励
+      10:
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+    6:
+      max: 10
+      10:
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+    7:
+      max: 10
+      10:
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+    8:
+      max: 10
+      10:
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+        - "ecraft give 抽奖1 %player%"
+  #Gui 里的描述
+  Msg:
+    1: "&a低阶刮刮卡x1"
+    2: "&a低阶刮刮卡x2,游戏币2000"
+    3: "&a低阶刮刮卡x3,游戏币3000"
+    4: "&a低阶刮刮卡x4,游戏币4000"
+    5: "&a低阶刮刮卡x5,游戏币5000"
+    6: "&a低阶刮刮卡x6,游戏币7000"
+    7: "&a抽奖钥匙x1,游戏币12000"

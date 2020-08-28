@@ -1,0 +1,159 @@
+NoneGui:
+  title: "&9&l创建 or 加入公会"
+  createGuild:
+    type: writable_book
+    name: "&9&l创建公会"
+    lore:
+      - "&a需要100000游戏币+石魔信物"
+    permission: "guild.create"
+    command:
+      - "broadcast &a%player%成功创建了公会 %guild_name%!"
+
+  listGuild:
+    type: book
+    name: "&a&l加入公会"
+    lore:
+      - "&a加入你喜欢的公会吧!"
+
+SelectGuild:
+  title: "&9&l加入公会"
+  guildInfo:
+    type: player_head
+    name: "&a&l%guild% 公会"
+    lore:
+      - "&e公会介绍: %guild_info%"
+      - "&a公会人数： %guild_number% / %guild_max_number%"
+      - "&a公会等级： %level%"
+      - "&a会长: %guild_admin%"
+
+GuildGui:
+  title: "&7%guild_name% 公会"
+  List:
+    type: player_head
+    name: "&a查看队员列表"
+    lore:
+      - "&7查看队员信息"
+      - "%catAccept%"
+  Flag:
+    type: end_crystal
+    name: "&a查看/设置 公会Flag"
+    lore:
+      - "&7查看/修改公会设置"
+  Info:
+    type: book
+    name: "&a查看公会信息/升级工会"
+    lore:
+      - "&7公会人数: %player_count% / %max_player_count%"
+      - "&7公会等级: %guild_level%"
+      - "&7仓库大小: %guild_chest%"
+  Player:
+    type: item_frame
+    name: "&a公会福利"
+    lore:
+      - "&7回收商店加成"
+      - "&7BOSS助攻礼包"
+      - "&7公会地标传送权"
+      - "&7公会专属称号"
+      - "&7顶级工会特殊NPC"
+      - "&7等·······"
+  Home:
+    type: gray_bed
+    name: "&a传送至公会的家"
+    lore:
+      - "&7一键传送至公会的家"
+  Chest:
+    type: chest
+    name: "&a打开公会仓库"
+    lore:
+      - "&7暂未开放，请等待"
+  Sign:
+    type: sign
+    name: "&a公会打卡"
+    lore:
+      - "&7签到奖励: %sign_info%"
+  Tpall:
+    type: light_blue_banner
+    name: "&a公会召集令"
+    lore:
+      - "&7使用一次消耗1000金币"
+      - "&7公会内在线玩家可收到您的召集通知"
+  Leave:
+    type: barrier
+    name: "&c%str%公会"
+    lore:
+      - "&c%str%公会后，不可恢复，请谨慎操作"
+
+ListPlayerGui:
+  title: "&a队员列表"
+  Player:
+    type: player_head
+    name: "&e%str%: %player_name%"
+    lore:
+      - "&f---------------"
+      - "&7等级: %player_level%"
+      - "&7血量: %player_health%"
+      - "&7金币: %player_money%"
+      - "&7称号: %player_prefix%"
+      - "&7权限组: %player_group%"
+      - "&7当前所在世界: %player_world%"
+      - "&f---------------"
+      - "%editIdentity%"
+
+ApplyPlayerGui:
+  title: "&a申请列表"
+  Player:
+    type: player_head
+    name: "&eID: %player_name%"
+    lore:
+      - "&f---------------"
+      - "&7等级: %player_level%"
+      - "&7金币: %player_money%"
+      - "&7称号: %player_prefix%"
+      - "&7权限组: %player_group%"
+      - "&f---------------"
+      - "&a左键同意  &f|  &c右键拒绝"
+
+GuildFlag:
+  title: "&a公会Flag"
+  pvp:
+    type: iron_sword
+    name: "&e公会PVP是否免伤: %boolean%"
+  settp:
+    type: compass
+    name: "&e设置公会的家"
+  prefix:
+    type: name_tag
+    name: "&e显示公会称号"
+  editinfo:
+    type: name_tag
+    name: "&e修改工会介绍"
+
+confirmGui:
+  title: "&a谨慎操作"
+  ty:
+    type: end_crystal
+    name: "&c&l确认"
+  jj:
+    type: nether_star
+    name: "&c&l取消"
+
+transferconGui:
+  title: "&a转让会长给%player%"
+
+identityGui:
+  title: "&a身份管理"
+  default:
+    type: wooden_sword
+    name: "&a%identity%"
+  elite:
+    type: stone_sword
+    name: "&a%identity%"
+  grand:
+    type: iron_sword
+    name: "&a%identity%"
+  transfer:
+    type: beacon
+    name: "&a转让会长至%player%"
+  level:
+    type: barrier
+    name: "&a踢出此队员"

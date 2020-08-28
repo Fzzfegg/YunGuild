@@ -1,0 +1,9 @@
+Database:
+  #MYSQL  (sqlite待更新)
+  database: MYSQL
+  mysql:
+    databasename: guild  (需要自行新建库
+    username: 用户名
+    password: 密码
+    port: 3306
+    ip: localhost

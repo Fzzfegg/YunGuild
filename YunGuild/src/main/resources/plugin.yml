@@ -1,0 +1,12 @@
+name: YunGuild
+version: ${project.version}
+main: fzzfegg.com.yunguild.YunGuild
+api-version: 1.13
+prefix: YunGuild
+authors: [Fzzfegg]
+description: YunGuild
+website: Fzzfegg.com
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  Guild:
