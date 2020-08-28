@@ -41,8 +41,8 @@ signwait: "&a签到成功,当你在线%time%分钟后，就可以获得签到奖
 signxc: "&a距离下次签到还剩%time%小时"
 joinguildsign: "&a退出公会后，需要等待第二天才可签到"
 transfercon: "&a%guild%公会，有了新的会长%player%"
-editinfo: "&a请输入新的工会描述"
-editwc: "&a工会描述已修改为: %info%"
+editinfo: "&a请输入新的公会描述"
+editwc: "&a公会描述已修改为: %info%"
 
 editIdentity: "§c右键修改身份"
 catAccept: "§7右键查看申请信息"

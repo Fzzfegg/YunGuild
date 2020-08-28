@@ -1,16 +1,16 @@
 Guild:
-  #工会名字限制长度
+  #公会名字限制长度
   minNameLength: 2
   maxNameLength: 4
-  #工会默认最大人数
+  #公会默认最大人数
   defaultPlayerCount: 3
-  #退出工会后，要过20分钟才可以继续加入
+  #退出公会后，要过20分钟才可以继续加入
   levalCD: 20
   #召集令需要的金币
   issueZhaojiling: 1000
   #TP等待
   issuzTime: 3
-  #工会聊天
+  #公会聊天
   chat:
     #公平输入 gh 聊天内容  即可
     prefix: "gh"
@@ -51,7 +51,7 @@ Guild:
       elite: 1
       grand: 1
 
-#禁止使用的工会名字 字符
+#禁止使用的公会名字 字符
 noGuildName:
   - "管理"
   - "腐竹"
@@ -62,6 +62,6 @@ noGuildName:
   - "最"
   - "&"
 
-#禁止使用召集令-设置工会家的世界
+#禁止使用召集令-设置公会家的世界
 noTpWorld:
   - "cs"

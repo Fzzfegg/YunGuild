@@ -23,7 +23,7 @@ SelectGuild:
     lore:
       - "&e公会介绍: %guild_info%"
       - "&a公会人数： %guild_number% / %guild_max_number%"
-      - "&a公会等级： %level%"
+      - "&a公会等级： %guild_level%"
       - "&a会长: %guild_admin%"
 
 GuildGui:
@@ -41,7 +41,7 @@ GuildGui:
       - "&7查看/修改公会设置"
   Info:
     type: book
-    name: "&a查看公会信息/升级工会"
+    name: "&a查看公会信息/升级公会"
     lore:
       - "&7公会人数: %player_count% / %max_player_count%"
       - "&7公会等级: %guild_level%"
@@ -54,7 +54,7 @@ GuildGui:
       - "&7BOSS助攻礼包"
       - "&7公会地标传送权"
       - "&7公会专属称号"
-      - "&7顶级工会特殊NPC"
+      - "&7顶级公会特殊NPC"
       - "&7等·······"
   Home:
     type: gray_bed
@@ -126,7 +126,7 @@ GuildFlag:
     name: "&e显示公会称号"
   editinfo:
     type: name_tag
-    name: "&e修改工会介绍"
+    name: "&e修改公会介绍"
 
 confirmGui:
   title: "&a谨慎操作"
